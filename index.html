@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flatdango</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h4>Flatdango</h4>
+    </header>
+
+    <main>
+      <!-- content -->
+      <h5>The main section where data will be displayed</h5>
+
+      <div class="list-items">
+        <ul id="list">
+          <!-- list of films will go here -->
+        </ul>
+
+        <div id="film-info">
+          <!-- film details will be displayed here -->
+         <p id="film-title" style="color: brown;">Film title</p> 
+         <p id="runtime">Runtime</p>
+         <img src="" id="poster">
+         <p id="showtime"> showtime</p> 
+         <p id="available-tickets">available tickets</p>
+         <button id="buy-ticket">Buy Ticket</button>
+        </div>
+      </div>
+
+      <!-- a form to get the data -->
+      <hr>
+ <div>
+    <form id="add-movie">
+        <div>
+            <label for="Title">title</label>
+            <input type="text" id="title-data">
+        </div>
+       
+        <div>
+            <label for="runtime">Runtime</label>
+            <input type="text" name="runtime" id="runtime_data">
+        </div>
+    
+        <label for="showtime">Showtime</label>
+    </form>
+    <hr>
+ </div>     
+
+      <!-- "title": "Village Of The Giants",
+        "runtime": "98",
+        "capacity": 50,
+        "showtime": "04:45PM",
+        "tickets_sold": 33,
+        "description": 
+        "poster -->
+    </main>
+
+    <footer>
+      <ul>
+        <li>2023</li>
+      </ul>
+    </footer>
+
+    <script src="index.js"></script>
+  </body>
+</html>
